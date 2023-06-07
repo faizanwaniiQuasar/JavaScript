@@ -28,8 +28,11 @@ body {
 
 .countries {
   /* margin-bottom: 8rem; */
-  display: flex;
-
+  margin-block: 30px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
   font-size: 2rem;
   opacity: 0;
   transition: opacity 1s;
